@@ -1,15 +1,15 @@
 hero:
   title: "Your Trusted Wholesale Distribution Partner"
-  subtitle: "Delivering Quality Products Since 2015"
-  description: "New Jersey-based wholesale distribution company specializing in supplying high-demand automotive products, bottled water, sports drinks, and seasonal items to Gas stations, Truck stops, Repair Shops, and other small businesses across the state."
+  subtitle: "Delivering Quality Products Since 2010"
+  description: "New Jersey based wholesale distribution company specializing in supplying high demand automotive products, bottled water, sports drinks, and seasonal items to Gas stations, Truck stops, Repair Shops, and other small businesses across the state."
   backgroundImage: "https://example.com/images/hero-background.jpg" # Replace with actual image URL
   heroImage: "https://example.com/images/hero-image.jpg" # Replace with actual image URL
   stats:
     - value: "100+"
-      label: "Projects Completed"
+      label: "Orders Delivered Weekly"
     - value: "500"
       label: "Happy Clients"
-    - value: "10"
+    - value: "15"
       label: "Years Experience"
     - value: "99%"
       label: "Satisfaction Rate"

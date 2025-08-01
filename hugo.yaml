@@ -36,23 +36,23 @@ params:
 
   # Contact details
   contact:
-    phone: "+1 (555) 123-4567"
-    email: "info@example.com"
+    phone: "+1 (732) 306-5096"
+    email: "hkwholesalenj@gmail.com"
   
   # Hero section statistics
   hero:
     title: "Your Trusted Wholesale Distribution Partner"
     subtitle: "Delivering Quality Products Since 2015"
-    description: "A New Jersey-based wholesale distribution company specializing in supplying high-demand automotive products, bottled water, sports drinks, and seasonal items to Gas stations, Truck stops, Repair Shops, and other small businesses across the state."
+    description: "A New Jersey-based Small Business Partner in Distribution & Logistics. We specialize in sourcing high-demand products and delivering them right to your door helping you expand your product offerings and enhance your profitability."
     stats:
       - value: "100"
         valueLable: "100+"
-        label: "Projects Completed"
+        label: "Orders Delivered Weekly"
       - value: "500"
         valueLable: "500+"
         label: "Happy Clients"
-      - value: "10"
-        valueLable: "10+"
+      - value: "15"
+        valueLable: "15+"
         label: "Years Experience"
       - value: "99"
         valueLable: "99%"
