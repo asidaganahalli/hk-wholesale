@@ -5,6 +5,7 @@ theme: faster
 defaultContentLanguage: "en"
 style: "default"
 
+
 # Define your menus here
 menus:
   main:
