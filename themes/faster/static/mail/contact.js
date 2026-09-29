@@ -8,14 +8,14 @@ $(function () {
             event.preventDefault();
             var name = $("input#name").val();
             var email = $("input#email").val();
+            var phone = $("input#phone").val();
+            var smsConsent = $("input#smsConsent").is(":checked");
             if (smsConsent && !phone.trim()) {
                 $('#success').html("<div class='alert alert-danger'>Enter a phone number to request a text reply.</div>");
                 return;
             }
             var subject = $("input#subject").val();
             var message = $("textarea#message").val();
-            var phone = $("input#phone").val();
-            var smsConsent = $("input#smsConsent").is(":checked");
 
             $this = $("#sendMessageButton");
             $this.prop("disabled", true);
