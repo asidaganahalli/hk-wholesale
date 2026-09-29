@@ -62,8 +62,14 @@ jobs:
           test -s public/sms-terms/index.html
           grep -q "Privacy Policy" public/privacy/index.html
           grep -q "SMS Terms" public/sms-terms/index.html
-          grep -q "STOP" public/sms-terms/index.html
-          grep -q "HELP" public/sms-terms/index.html
+          grep -q "temporarily unavailable" public/contact/index.html
+          grep -q "mailto:hkwholesalenj@gmail.com" public/contact/index.html
+          grep -q "tel:+17323065096" public/contact/index.html
+          test ! -e public/mail/contact.php
+          if grep -q "smsConsent" public/contact/index.html; then
+            echo "SMS consent must not be offered before a working enrollment service exists."
+            exit 1
+          fi
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

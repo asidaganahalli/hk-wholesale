@@ -11,47 +11,12 @@
           frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
       </div>
       <div class="col-lg-7">
-          <h6 class="text-primary text-uppercase font-weight-bold">Contact Us</h6>
+        <h6 class="text-primary text-uppercase font-weight-bold">Contact Us</h6>
         <h1 class="mb-4">Contact For Any Queries</h1>
-        <div class="contact-form bg-secondary" style="padding: 30px;">
-          <div id="success"></div>
-          <form name="sentMessage" id="contactForm" novalidate="novalidate">
-            <div class="control-group">
-              <input type="text" class="form-control border-0 p-4" id="name" placeholder="Your Name" required="required"
-                data-validation-required-message="Please enter your name" />
-              <p class="help-block text-danger"></p>
-            </div>
-            <div class="control-group">
-              <input type="email" class="form-control border-0 p-4" id="email" placeholder="Your Email"
-                required="required" data-validation-required-message="Please enter your email" />
-              <p class="help-block text-danger"></p>
-            </div>
-              <div class="control-group">
-                <input type="tel" class="form-control border-0 p-4" id="phone" placeholder="Phone (optional)"
-                  autocomplete="tel" />
-                <p class="help-block text-danger"></p>
-              </div>
-            <div class="control-group">
-              <input type="text" class="form-control border-0 p-4" id="subject" placeholder="Subject"
-                required="required" data-validation-required-message="Please enter a subject" />
-              <p class="help-block text-danger"></p>
-            </div>
-            <div class="control-group">
-              <textarea class="form-control border-0 py-3 px-4" rows="3" id="message" placeholder="Message"
-                required="required" data-validation-required-message="Please enter your message"></textarea>
-              <p class="help-block text-danger"></p>
-            </div>
-              <div class="form-check mb-3">
-                <input class="form-check-input" type="checkbox" id="smsConsent" />
-                <label class="form-check-label" for="smsConsent">
-                  I agree to receive up to 3 text messages from HK Wholesale about this inquiry. Message and data rates may apply. Reply STOP to opt out or HELP for help. Consent is not a condition of purchase. See our                   <a href="{{ "sms-terms/" | relURL }}">SMS Terms</a> and <a href="{{ "privacy/" | relURL }}">Privacy Policy</a>.
-                </label>
-              </div>
-            <div>
-              <button class="btn btn-primary py-3 px-4" type="submit" id="sendMessageButton">Send
-                Message</button>
-            </div>
-          </form>
+        <div class="contact-form bg-secondary text-dark p-4">
+          <p>Our online contact form is temporarily unavailable. Please contact us directly by phone or email.</p>
+          <p><i class="fa fa-phone-alt mr-2"></i><a href="tel:{{ replaceRE "[^0-9+]" "" .Site.Params.contact.phone }}">{{ .Site.Params.contact.phone }}</a></p>
+          <p class="mb-0"><i class="fa fa-envelope mr-2"></i><a href="mailto:{{ .Site.Params.contact.email }}">{{ .Site.Params.contact.email }}</a></p>
         </div>
       </div>
     </div>
