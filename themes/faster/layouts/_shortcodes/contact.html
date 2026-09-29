@@ -26,6 +26,11 @@
                 required="required" data-validation-required-message="Please enter your email" />
               <p class="help-block text-danger"></p>
             </div>
+              <div class="control-group">
+                <input type="tel" class="form-control border-0 p-4" id="phone" placeholder="Phone (optional)"
+                  autocomplete="tel" />
+                <p class="help-block text-danger"></p>
+              </div>
             <div class="control-group">
               <input type="text" class="form-control border-0 p-4" id="subject" placeholder="Subject"
                 required="required" data-validation-required-message="Please enter a subject" />
@@ -36,6 +41,12 @@
                 required="required" data-validation-required-message="Please enter your message"></textarea>
               <p class="help-block text-danger"></p>
             </div>
+              <div class="form-check mb-3">
+                <input class="form-check-input" type="checkbox" id="smsConsent" />
+                <label class="form-check-label" for="smsConsent">
+                  I agree to receive up to 3 text messages from HK Wholesale about this inquiry. Message and data rates may apply. Reply STOP to opt out or HELP for help. Consent is not a condition of purchase. See our <a href="/sms-terms/">SMS Terms</a> and <a href="/privacy/">Privacy Policy</a>.
+                </label>
+              </div>
             <div>
               <button class="btn btn-primary py-3 px-4" type="submit" id="sendMessageButton">Send
                 Message</button>

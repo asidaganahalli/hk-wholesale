@@ -35,8 +35,10 @@
     <!-- Header Start -->
     <div class="jumbotron jumbotron-fluid mb-5">
         <div class="container text-center py-5">
-            <h1 class="text-primary mb-4">Safe & Faster</h1>
-            <h1 class="text-white display-3 mb-5">Wholesale Services</h1>
+            <p class="text-primary mb-4">New Jersey Wholesale Distribution</p>
+            <h1 class="text-white display-3 mb-4">{{ .Site.Params.hero.title | default "Your Trusted Wholesale Distribution Partner" }}</h1>
+            <p class="text-white mb-5">{{ .Site.Params.hero.description }}</p>
+            <a class="btn btn-primary py-2 px-4" href="{{ "contact/" | relURL }}">Contact Us</a>
             <!-- <div class="mx-auto" style="width: 100%; max-width: 600px;">
                 <div class="input-group">
                     <input type="text" class="form-control border-light" style="padding: 30px;" placeholder="Tracking Id">
