@@ -9,10 +9,6 @@
                         <p><i class="fa fa-phone-alt mr-2"></i>{{ .Site.Params.contact.phone }}</p>
                         <p><i class="fa fa-envelope mr-2"></i>{{ .Site.Params.contact.email }}</p>
                         <div class="d-flex justify-content-start mt-4">
-                            <a class="btn btn-outline-light btn-social mr-2" href="#"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-outline-light btn-social mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-outline-light btn-social mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
-                            <a class="btn btn-outline-light btn-social" href="#"><i class="fab fa-instagram"></i></a>
                         </div>
                     </div>
                     <div class="col-md-6 mb-5">
@@ -26,17 +22,23 @@
                 </div>
             </div>
             <div class="col-lg-5 col-md-6 mb-5">
+<<<<<<< HEAD
                 <h3 class="text-primary mb-4">Text Message Updates</h3>
                 <p>Text message updates are not currently available through this website. Contact us by phone or email for assistance.</p>
                 <p><i class="fa fa-phone-alt mr-2"></i><a class="text-white" href="tel:{{ replaceRE "[^0-9+]" "" .Site.Params.contact.phone }}">{{ .Site.Params.contact.phone }}</a></p>
                 <p><i class="fa fa-envelope mr-2"></i><a class="text-white" href="mailto:{{ .Site.Params.contact.email }}">{{ .Site.Params.contact.email }}</a></p>
+=======
+                <h3 class="text-primary mb-4">Questions?</h3>
+                <p>Contact HK Wholesale about product availability, delivery, or a quote for your business.</p>
+                <a class="btn btn-primary py-2 px-4" href="{{ "contact/" | relURL }}">Contact Us</a>
+>>>>>>> b5b1c6dd21c16d985161f65c02f7902b3cb2171d
             </div>
         </div>
     </div>
     <div class="container-fluid bg-dark text-white border-top py-4 px-sm-3 px-md-5" style="border-color: #3E3E4E !important;">
         <div class="row">
             <div class="col-lg-6 text-center text-md-left mb-3 mb-md-0">
-                <p class="m-0 text-white">&copy; <a href="#">{{ .Site.Title }}</a>. All Rights Reserved. 
+                <p class="m-0 text-white">&copy; <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>. All Rights Reserved. 
 				
 				<!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
 				Designed by <a href="https://htmlcodex.com">HTML Codex</a>
@@ -50,6 +52,10 @@
                     <li class="nav-item">
                         <a class="nav-link text-white py-0" href="{{ "sms-terms/" | relURL }}">SMS Terms</a>
                     </li>
+<<<<<<< HEAD
+=======
+                    <li class="nav-item">
+>>>>>>> b5b1c6dd21c16d985161f65c02f7902b3cb2171d
                 </ul>
             </div>
         </div>
