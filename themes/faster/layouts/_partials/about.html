@@ -1,24 +1,24 @@
 {{ $about := .Site.GetPage "about" }}
-{{ $content := $about.Content | safeHTML }}
 {{ $title := $about.Params.title | default "About Us" }}
-{{ $subtitle := $about.Params.subtitle | default "Innovation and Dedication" }}
-{{ $mission := $about.Params.mission | default "To deliver exceptional solutions that empower our clients." }}
-
 
 <!-- About Start -->
 
-    <div class="container">
+    <div class="container home-about">
         <div class="row align-items-center">
             <div class="col-lg-5 pb-4 pb-lg-0">
-                <img class="img-fluid w-100" src="{{ "img/about.jpg" | relURL }}" alt="">
+                <figure class="home-about-photo">
+                    <img class="img-fluid w-100" src="{{ "img/business/warehouse.jpg" | relURL }}" alt="Shelves of wholesale goods and stacked cartons in a warehouse" width="600" height="400" loading="lazy">
+                    <figcaption>Illustrative warehouse photo</figcaption>
+                </figure>
                 <div class="bg-primary text-dark text-center p-4">
                     <h3 class="m-0">New Jersey Distribution &amp; Logistics</h3>
                 </div>
             </div>
             <div class="col-lg-7">
-                <h6 class="text-primary text-uppercase font-weight-bold">{{ $title }}</h6>
-                <h1 class="mb-4">Your New Jersey Small Business Partner</h1>
-                {{ $content }}
+                <p class="text-primary text-uppercase font-weight-bold">{{ $title }}</p>
+                <h2 class="mb-4">Your New Jersey Small Business Partner</h2>
+                <p>{{ $about.Params.summary }}</p>
+                <a class="btn btn-primary py-2 px-4" href="{{ $about.RelPermalink }}">Our Story</a>
                 <!-- <div class="d-flex align-items-center pt-2">
                         <button type="button" class="btn-play" data-toggle="modal"
                             data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-target="#videoModal">

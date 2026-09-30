@@ -1,15 +1,12 @@
 <meta charset="utf-8">
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
-<title>{{ .Site.Title }}</title>
-<meta name="description" content="">
-<meta name="keywords" content="">
-
-<meta content="width=device-width, initial-scale=1.0" name="viewport">
-<meta content="HK-Wholesale" name="keywords">
-<meta content="HK-Wholesale" name="description">
-
-<!-- Favicon -->
-<link href="{{ "img/favicon.ico" | relURL }}" rel="icon">
+{{ if .IsHome }}
+<title>{{ .Site.Title }} | New Jersey Wholesale Distribution</title>
+<meta name="description" content="{{ .Site.Params.hero.description }}">
+{{ else }}
+<title>{{ .Title }} | {{ .Site.Title }}</title>
+<meta name="description" content="{{ .Description | default .Site.Params.description }}">
+{{ end }}
 
 <!-- Google Web Fonts -->
 <link rel="preconnect" href="https://fonts.gstatic.com">

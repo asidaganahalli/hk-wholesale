@@ -4,18 +4,19 @@ date: 2025-07-11T18:30:00-04:00 # Adjust date as needed
 draft: false
 type: page
 id: about
+description: "Learn how HK Wholesale supports New Jersey small businesses with wholesale sourcing and local distribution."
+summary: "HK Wholesale helps New Jersey small businesses source high-demand products and arrange direct delivery, with a focus on gas stations, truck stops, repair shops, and other local businesses."
 ---
 
-Welcome to **HK Wholesale**, Your New Jersey Small Business Partner in Distribution & Logistics
+Founded in 2010, **HK Wholesale** is your New Jersey small business partner in distribution and logistics.
 
-Are you a small business looking for a competitive edge? We specialize in sourcing high-demand products and delivering them right to your door helping you expand your product offerings and enhance your profitability. 
+We specialize in sourcing high-demand products and delivering them right to your door helping you expand your product offerings and enhance your profitability. 
 
 Our mission is simple: empower local businesses by connecting them with the goods and services they need to thrive.
 
 The business was founded on identifying significant opportunities in how gas station owners procured essential products, particularly those catering to trucking companies.
 
-Drawing on family experience in the trucking and gas station industries, HK Wholesale was launched to bridge the gap between product distributors and gas station owners, offering bulk purchasing and direct delivery at competitive prices. By focusing on customer needs, timely deliveries, and expanding product offerings, the business grew organically through word-of-mouth, without reliance on digital marketing or ecommerce. 
-Monthly gross sales have grown from **$5,000 to $150,000**, with a customer base that now includes multilocation gas station owners, warehouse operators, and repair shops throughout New Jersey.
+Drawing on family experience in the trucking and gas station industries, HK Wholesale was launched to bridge the gap between product distributors and gas station owners, offering bulk purchasing and direct delivery at competitive prices. By focusing on customer needs, timely deliveries, and expanding product offerings, the business grew organically through word-of-mouth, without reliance on digital marketing or ecommerce.
 
 We have since then expanded our portfolio to include comprehensive suite of automotive products, bottled water, sports drinks, and seasonal items to Gas stations, Truck stops, Repair Shops, and other small businesses across the state.
 
@@ -29,9 +30,9 @@ We have since then expanded our portfolio to include comprehensive suite of auto
 
 ## Competitive Advantage
 
-**Just-in-Time Inventory**: Reduce the stress of overstocking or stockouts order what you need, when you need it.
-**No Mover Needed**: Our specialized small load logistics eliminate the hassle and cost of hiring traditional movers.
-**Expand Your Product Range**: With efficient access to in-demand products, you can introduce new inventory quickly, attracting more customers.
+- **Just-in-Time Inventory**: Reduce the stress of overstocking or stockouts; order what you need, when you need it.
+- **No Mover Needed**: Our specialized small load logistics eliminate the hassle and cost of hiring traditional movers.
+- **Expand Your Product Range**: With efficient access to in-demand products, you can introduce new inventory quickly, attracting more customers.
 
 ### Unique Selling Proposition
 
@@ -42,4 +43,3 @@ Efficient product sourcing, flexible distribution, and cost-effective local deli
 Contact us today to discover how we can help your business generate more revenue!
 
 {{< key-strengths >}}
-{{< stats >}}

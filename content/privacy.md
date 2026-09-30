@@ -3,6 +3,7 @@ title: "Privacy Policy"
 type: page
 id: privacy
 draft: false
+description: "Read HK Wholesale's privacy policy for information provided through website inquiries."
 ---
 
 HK Wholesale respects your privacy. This policy describes information you choose to provide when contacting the business.

@@ -3,18 +3,27 @@ categories:
     items:
       - name: "Automotive Essentials"
         description: "DEF, engine oils, lubricants, and truck maintenance products."
-        image: "img/Automotive_Essentials.png" # Placeholder image path
+        icon: "fa-oil-can"
+        image: "img/stock/motor-oil-service.jpg"
+        imageAlt: "Mechanic pouring motor oil into a car engine"
       - name: "Convenience Beverages"
         description: "Bottled water, sports drinks, and other quick-turnover items."
-        image: "img/Convenience_Beverages.png" # Placeholder image path
+        icon: "fa-tint"
+        image: "img/stock/bottled-water.jpg"
+        imageAlt: "Bottles of cold water"
       - name: "Seasonal Supplies"
         description: "Snow melting salt and other demand-driven seasonal products."
-        image: "img/Seasonal_Supplies.png" # Placeholder image path
+        icon: "fa-snowflake"
   - title: "Logistics & Sustainability Services"
     items:
       - name: "Logistics Services"
         description: "Direct-to-location delivery with optimized routing to ensure timely and cost-effective fulfillment. Our fleet ensures your products arrive when and where you need them."
-        image: "img/Logistics_Services.png" # Placeholder image path
+        icon: "fa-truck"
+        image: "img/business/box-truck-road.jpg"
+        imageAlt: "White box truck driving along a multi-lane highway"
+        imageCaption: "Illustrative delivery photo"
+        imageWidth: 611
+        imageHeight: 604
       - name: "Sustainability Initiatives"
         description: "Planned introduction of used oil collection and recycling, eco-friendly product lines, and greener transportation options. We are committed to responsible business practices."
-        image: "img/Sustainability_Initiatives.png" # Placeholder image path
+        icon: "fa-recycle"

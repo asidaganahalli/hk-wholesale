@@ -2,9 +2,8 @@
     <div class="navbar-nav m-auto py-0">
         {{ $currentPage := . }}
         {{ range .Site.Menus.main }}
-        <a href="{{ .URL }}" class="nav-item nav-link {{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">{{
+        <a href="{{ .URL }}" class="nav-item nav-link {{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}" {{ if $currentPage.IsMenuCurrent "main" . }}aria-current="page"{{ end }}>{{
             .Name }}</a>
         {{ end }}
     </div>
-    <!-- <a href="" class="btn btn-primary py-2 px-4 d-none d-lg-block">Get A Quote</a> -->
 </div>

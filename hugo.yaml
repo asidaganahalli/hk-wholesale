@@ -1,4 +1,4 @@
-baseURL: https://hk-wholsale.com/
+baseURL: "https://hk-wholsale.com/"
 languageCode: en-us
 title: HK Wholesale
 theme: faster
@@ -27,10 +27,11 @@ menus:
       weight: 40
 
 params:
+  description: "HK Wholesale supplies automotive essentials, beverages, and seasonal products to businesses in New Jersey."
   # Address details
   address:
     street: "21 Denman Drive"
-    city: "Woodbridge Township,"
+    city: "Woodbridge Township"
     state: "NJ"
     zip: "08863"
     country: "USA"
@@ -40,21 +41,7 @@ params:
     phone: "+1 (732) 306-5096"
     email: "hkwholesalenj@gmail.com"
   
-  # Hero section statistics
   hero:
     title: "Your Trusted Wholesale Distribution Partner"
-    subtitle: "Delivering Quality Products Since 2015"
-    description: "New Jersey based Small Business Partner in Distribution & Logistics. We specialize in sourcing high-demand products and delivering them right to your door helping you expand your product offerings and enhance your profitability."
-    stats:
-      - value: "100"
-        valueLable: "100+"
-        label: "Orders Delivered Weekly"
-      - value: "500"
-        valueLable: "500+"
-        label: "Happy Clients"
-      - value: "15"
-        valueLable: "15+"
-        label: "Years Experience"
-      - value: "99"
-        valueLable: "99%"
-        label: "Satisfaction Rate"
+    subtitle: "Founded in 2010 · New Jersey Wholesale Distribution"
+    description: "Automotive products, beverages, and seasonal supplies delivered locally to New Jersey gas stations, truck stops, repair shops, and other businesses."

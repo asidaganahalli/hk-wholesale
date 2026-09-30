@@ -3,17 +3,24 @@
 <div class="container services p-2">
     <h3 class="py-2">{{ .title }}</h3>
     <div class="row gy-4">
-        {{ range $index, $element := .items }}
-        <div class="col-lg-3 col-md-6 text-center mb-5">
-            <div class="d-flex align-items-center justify-content-center bg-primary mb-4 p-4">
-                <img src="{{ .image | relURL }}" alt="" class="img-fluid">
-                <h6 class="text-white font-weight-medium m-0">{{ .name }}</h6>
-            </div>
-            <p>{{ .description }}</p>
-            <a class="border-bottom text-decoration-none" href="">Read More</a>
+        {{ range .items }}
+        <div class="col-lg-4 col-md-6 mb-4">
+            <article class="product-service-card h-100">
+                {{ if .image }}
+                <figure class="product-service-photo">
+                    <img src="{{ .image | relURL }}" alt="{{ .imageAlt }}" width="{{ .imageWidth | default 1200 }}" height="{{ .imageHeight | default 800 }}" loading="lazy">
+                    <figcaption>{{ .imageCaption | default "Stock photo for illustration" }}</figcaption>
+                </figure>
+                {{ else }}
+                <div class="product-service-icon" aria-hidden="true">
+                    <i class="fa {{ .icon }}"></i>
+                </div>
+                {{ end }}
+                <h4>{{ .name }}</h4>
+                <p>{{ .description }}</p>
+            </article>
         </div>
         {{ end }}
     </div>
 </div>
 {{ end }}
-</div>
