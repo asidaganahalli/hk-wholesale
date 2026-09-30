@@ -18,7 +18,7 @@ Have a question about our product catalog, wholesale pricing, or store delivery 
 
 Reach out to our local team directly via phone, email, or web inquiry:
 
-* **Phone:** [+1 (732) 306-5096](tel:+17323065096)
+* **Phone:** {{< contact-phone >}}
 * **Email:** [hkwholesalenj@gmail.com](mailto:hkwholesalenj@gmail.com)
 * **Service Area:** New Jersey (Gas Stations, Truck Stops, Auto Repair Shops, & Local Retailers)
 * **Business Hours:** Monday – Friday: 8:00 AM – 5:00 PM EST

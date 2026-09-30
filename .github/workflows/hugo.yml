@@ -64,7 +64,11 @@ jobs:
           grep -q "SMS Terms" public/sms-terms/index.html
           grep -q "temporarily unavailable" public/contact/index.html
           grep -q "mailto:hkwholesalenj@gmail.com" public/contact/index.html
-          grep -q "tel:+17323065096" public/contact/index.html
+          grep -E -q 'tel:([+]|&#43;)17323065096' public/contact/index.html
+          if grep -q "ZgotmplZ" public/contact/index.html; then
+            echo "Unsafe link placeholder found on the contact page."
+            exit 1
+          fi
           test -s public/site.webmanifest
           test -s public/img/Hk-WholesaleLogo_New.jpeg
           test -s public/img/SnowMeltSalt.jpg
