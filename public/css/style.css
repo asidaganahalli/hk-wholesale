@@ -9709,12 +9709,23 @@ p,
   max-width: 850px;
 }
 
+.site-hero {
+  padding-top: clamp(0.5rem, 1vw, 1rem);
+  padding-bottom: clamp(0.5rem, 1vw, 1rem);
+}
+
+.site-hero .container {
+  padding-top: clamp(1rem, 1.5vw, 1.5rem) !important;
+  padding-bottom: clamp(1rem, 1.5vw, 1.5rem) !important;
+}
+
 .text-primary,
 .navbar-light .navbar-brand {
   color: #c93600 !important;
 }
 
 .navbar-light .navbar-brand {
+  position: relative;
   display: inline-flex;
   align-items: center;
   gap: 0.65rem;
@@ -9723,39 +9734,70 @@ p,
 
 .brand-logo {
   display: block;
-  width: 3rem;
-  height: 3.25rem;
+  width: clamp(5.5rem, 7vw, 7.5rem);
+  height: auto;
   flex: 0 0 auto;
   border-radius: 0.35rem;
-  object-fit: cover;
+  object-fit: contain;
 }
 
-.brand-copy,
-.footer-brand > span {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+.brand-logo-preview,
+.footer-logo-preview {
+  display: none;
 }
 
-.brand-name {
-  color: #c93600;
-  font-size: clamp(1.15rem, 2vw, 1.75rem);
-  font-weight: 800;
-  letter-spacing: 0.04em;
-  line-height: 1.1;
-  text-transform: uppercase;
-}
+@media (hover: hover) and (pointer: fine) {
+  .brand-logo-preview {
+    position: absolute;
+    z-index: 1050;
+    top: calc(100% + 0.75rem);
+    left: 0;
+    display: block;
+    width: min(57.5625rem, calc(100vw - 2rem));
+    max-height: calc(100vh - 2rem);
+    border-radius: 0.35rem;
+    background: #fff;
+    box-shadow: 0 0.75rem 2rem rgba(31, 31, 46, 0.24);
+    object-fit: contain;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 150ms ease, visibility 150ms ease;
+    visibility: hidden;
+  }
 
-.brand-tagline,
-.footer-brand > span > span {
-  color: #1f1f2e;
-  font-size: clamp(0.62rem, 1vw, 0.78rem);
-  font-weight: 600;
-  letter-spacing: 0.01em;
-  line-height: 1.25;
+  .navbar-brand:hover .brand-logo-preview,
+  .navbar-brand:focus-visible .brand-logo-preview {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .footer-brand .footer-logo-preview {
+    position: absolute;
+    z-index: 1050;
+    bottom: calc(100% + 0.75rem);
+    left: 0;
+    display: block;
+    width: min(57.5625rem, calc(100vw - 2rem));
+    max-height: calc(100vh - 2rem);
+    border-radius: 0.35rem;
+    background: #fff;
+    box-shadow: 0 0.75rem 2rem rgba(31, 31, 46, 0.24);
+    object-fit: contain;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 150ms ease, visibility 150ms ease;
+    visibility: hidden;
+  }
+
+  .footer-brand:hover .footer-logo-preview,
+  .footer-brand:focus-visible .footer-logo-preview {
+    opacity: 1;
+    visibility: visible;
+  }
 }
 
 .footer-brand {
+  position: relative;
   display: inline-flex;
   align-items: center;
   gap: 0.75rem;
@@ -9772,11 +9814,11 @@ p,
 
 .footer-brand img {
   display: block;
-  width: 4rem;
-  height: 4.375rem;
+  width: clamp(5.5rem, 7vw, 7.5rem);
+  height: auto;
   flex: 0 0 auto;
   border-radius: 0.35rem;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .footer-brand strong {
@@ -10063,16 +10105,11 @@ body {
 
   .brand-logo {
     width: 2.55rem;
-    height: 2.8rem;
+    height: auto;
   }
 
-  .brand-name {
-    font-size: clamp(1rem, 4vw, 1.25rem);
-  }
-
-  .brand-tagline {
-    max-width: 11rem;
-    font-size: clamp(0.58rem, 2.4vw, 0.7rem);
+  .footer-brand img {
+    width: 4rem;
   }
 
   .navbar-toggler {
@@ -10080,12 +10117,6 @@ body {
     min-height: 44px;
     flex: 0 0 auto;
     margin-left: auto;
-  }
-
-  @media (max-width: 359.98px) {
-    .brand-tagline {
-      max-width: 8.75rem;
-    }
   }
 
   .site-hero {

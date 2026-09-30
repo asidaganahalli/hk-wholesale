@@ -66,7 +66,7 @@ jobs:
           grep -q "mailto:hkwholesalenj@gmail.com" public/contact/index.html
           grep -q "tel:+17323065096" public/contact/index.html
           test -s public/site.webmanifest
-          test -s public/img/Hk-WholesaleLogo.jpeg
+          test -s public/img/Hk-WholesaleLogo_New.jpeg
           test -s public/img/SnowMeltSalt.jpg
           test -s public/img/Sustainability.jpg
           test -s public/img/icons/apple-touch-icon.png
@@ -75,8 +75,7 @@ jobs:
           grep -E -q '"display"[[:space:]]*:[[:space:]]*"standalone"' public/site.webmanifest
           grep -E -q 'data-mobile-tab="?logistics"?' public/index.html
           grep -E -q 'href="?/services/#logistics-services"?' public/index.html
-          grep -q "Outstanding Service at Affordable Prices" public/index.html
-          grep -E -q 'src="?/img/Hk-WholesaleLogo.jpeg"?' public/index.html
+          grep -E -q 'src="?/img/Hk-WholesaleLogo_New.jpeg' public/index.html
           grep -q "img/SnowMeltSalt.jpg" public/services/index.html
           grep -q "img/Sustainability.jpg" public/services/index.html
           grep -q "https://hk-wholsale.com/" public/index.html

@@ -33,7 +33,6 @@ menus:
 
 params:
   description: "HK Wholesale supplies automotive essentials, beverages, and seasonal products to businesses in New Jersey."
-  tagline: "Outstanding Service at Affordable Prices"
   # Address details
   address:
     street: "21 Denman Drive"
