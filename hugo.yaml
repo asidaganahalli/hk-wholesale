@@ -1,9 +1,14 @@
 baseURL: "https://hk-wholsale.com/"
-languageCode: en-us
 title: HK Wholesale
 theme: faster
 defaultContentLanguage: "en"
 style: "default"
+languages:
+  en:
+    locale: en-US
+disableKinds:
+  - taxonomy
+  - term
 
 
 # Define your menus here

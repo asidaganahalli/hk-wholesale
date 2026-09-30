@@ -14,6 +14,11 @@ categories:
       - name: "Seasonal Supplies"
         description: "Snow melting salt and other demand-driven seasonal products."
         icon: "fa-snowflake"
+        image: "img/SnowMeltSalt.jpg"
+        imageAlt: "Bags of snow and ice melt salt stacked on warehouse pallets"
+        imageCaption: "Snow and ice melt salt"
+        imageWidth: 1024
+        imageHeight: 678
   - title: "Logistics & Sustainability Services"
     items:
       - name: "Logistics Services"
@@ -27,3 +32,8 @@ categories:
       - name: "Sustainability Initiatives"
         description: "Planned introduction of used oil collection and recycling, eco-friendly product lines, and greener transportation options. We are committed to responsible business practices."
         icon: "fa-recycle"
+        image: "img/Sustainability.jpg"
+        imageAlt: "Earth surrounded by green recycling arrows"
+        imageCaption: "Sustainability initiatives"
+        imageWidth: 162
+        imageHeight: 157

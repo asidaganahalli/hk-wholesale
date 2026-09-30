@@ -39,14 +39,14 @@ High-margin, high-turnover products tailored to your customer demand:
 
 ## Why Local Businesses Partner With Us
 
-### ⚡ Just-In-Time Ordering
+### Just-In-Time Ordering
 Avoid tied-up capital and cluttered backrooms. Order the inventory you need, exactly when you need it.
 
-### 🚚 Small-Load Delivery (No Freight Fees)
+### Small-Load Delivery
 Skip the expense of hiring traditional freight movers. Our specialized local logistics team delivers small-to-medium loads directly to your store with care and speed.
 
-### 🤝 Partner-First Pricing & Support
-We treat you as a long-term business partner—offering flexible delivery schedules, customized inventory sourcing, and transparent wholesale margins.
+### Partner-First Pricing & Support
+We treat you as a long-term business partner, offering flexible delivery schedules, customized inventory sourcing, and transparent wholesale margins.
 
 ---
 

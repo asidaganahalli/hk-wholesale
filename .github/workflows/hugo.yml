@@ -31,7 +31,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.148.0
+      HUGO_VERSION: 0.166.0
     steps:
       - name: Install Hugo CLI
         run: |
@@ -67,6 +67,8 @@ jobs:
           grep -q "tel:+17323065096" public/contact/index.html
           test -s public/site.webmanifest
           test -s public/img/Hk-WholesaleLogo.jpeg
+          test -s public/img/SnowMeltSalt.jpg
+          test -s public/img/Sustainability.jpg
           test -s public/img/icons/apple-touch-icon.png
           test -s public/img/icons/icon-192.png
           test -s public/img/icons/icon-512.png
@@ -75,6 +77,13 @@ jobs:
           grep -E -q 'href="?/services/#logistics-services"?' public/index.html
           grep -q "Outstanding Service at Affordable Prices" public/index.html
           grep -E -q 'src="?/img/Hk-WholesaleLogo.jpeg"?' public/index.html
+          grep -q "img/SnowMeltSalt.jpg" public/services/index.html
+          grep -q "img/Sustainability.jpg" public/services/index.html
+          grep -q "https://hk-wholsale.com/" public/index.html
+          if grep -R -i -n -E 'HTML Codex|htmlcodex\.com' public --include='*.html'; then
+            echo "Outdated HTML Codex attribution found in generated pages."
+            exit 1
+          fi
           test ! -e public/mail/contact.php
           if grep -q "smsConsent" public/contact/index.html; then
             echo "SMS consent must not be offered before a working enrollment service exists."

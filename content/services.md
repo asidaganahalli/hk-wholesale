@@ -36,17 +36,6 @@ Skip the high minimums and expensive freight charges of traditional moving compa
 
 ---
 
-## The HK Wholesale Difference
-
-| Service Feature | Traditional Freight / Distributors | HK Wholesale Approach |
-| :--- | :--- | :--- |
-| **Minimum Order Size** | High pallet/truckload minimums | **Flexible, small-volume friendly** |
-| **Delivery Radius** | Rigid regional routes | **Tailored local New Jersey routing** |
-| **Stock Management** | Slow restocks & long lead times | **Just-In-Time store replenishment** |
-| **Customer Support** | Automated call centers | **Direct, local partner service** |
-
----
-
 ### Ready to Optimize Your Inventory & Deliveries?
 
 Let's discuss what products your store needs and build a custom delivery schedule.

@@ -10,7 +10,7 @@
         <h2 class="mb-4">Reliable Wholesale Supply and Local Delivery</h2>
         <p class="mb-4">From automotive products and beverages to seasonal supplies, HK Wholesale helps New Jersey businesses restock and deliver with less hassle.</p>
         <ul class="list-inline">
-          {{ range $.Site.Data.features.home_features.features }}
+          {{ range hugo.Data.features.home_features.features }}
           <li class="mb-3">
             <h6><i class="{{ .icon }} text-primary mr-3"></i>{{ .title }}</h6>
             <p>{{ .description }}</p>
