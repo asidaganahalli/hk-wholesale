@@ -1,27 +1,56 @@
 ---
 title: "Our Products & Services"
-date: 2025-07-11T18:30:00-04:00 # Adjust date as needed
+date: 2025-07-11T18:30:00-04:00
 draft: false
 type: page
 id: featured-services
 description: "Explore HK Wholesale's product sourcing, local delivery, and distribution services for New Jersey businesses."
+summary: "High-demand product sourcing and direct local store delivery tailored for New Jersey gas stations, repair shops, and small businesses."
 ---
 
-At **HK Wholesale**, we are dedicated to helping New Jersey’s small businesses operate smarter and grow faster. Our flexible, partner focused services are designed to simplify sourcing and logistics, allowing you to focus on what matters most serving your customers.
+# Wholesale Products & Direct Local Logistics
 
-## Product Procurement & Sourcing
+At **HK Wholesale**, we help New Jersey small businesses operate smarter, reduce inventory holding costs, and drive higher margins. 
 
-- **In-Demand Inventory:** We specialize in sourcing high demand, trending, and hard-to-find products—from automotive essentials to bottled water, sports drinks, and seasonal items.
-- **Tailored Solutions:** Our team leverages deep market knowledge to recommend products that meet your unique needs, helping you expand your inventory and attract new customers.
+We take the stress out of product procurement and store delivery—so you can keep your shelves stocked and focus on serving your customers.
 
-## Small-Volume Logistics
+---
 
-- **Cost-Effective Deliveries:** No need for expensive moving companies. We move your products from warehouses to your location efficiently and affordably, no matter the volume.
-- **Just-in-Time Delivery:** Receive the right products when you need them, reducing the burden of overstocking or unexpected stockouts.
+## 1. High-Demand Product Sourcing
 
-## Partner-Centric Distribution
+We source fast-moving, high-margin inventory directly for commercial retail locations across New Jersey:
 
-- **Personalized Service:** Every business has unique challenges and goals. We work closely with each client to customize procurement and delivery according to your schedule and growth objectives.
-- **Flexible Order Sizes:** Whether you need a small shipment or a broader restock, we accommodate orders of all sizes, perfect for dynamic small business environments.
+* **Automotive Essentials:** Motor oils, functional fluids, wiper blades, maintenance products, and shop supplies.
+* **Beverages & Refreshments:** Premium bottled water, energy drinks, and sports beverages.
+* **Seasonal & High-Turnover Goods:** Hard-to-find and trending items tailored to local motorist and travel demand.
+
+---
+
+## 2. Small-Load Local Logistics
+
+Skip the high minimums and expensive freight charges of traditional moving companies or major national distributors:
+
+* **Direct-To-Door Delivery:** Fast, careful transport from local warehouses straight to your store or shop counter.
+* **Just-In-Time (JIT) Restocking:** Keep your backroom lean. Order what you need, exactly when you need it—preventing tied-up capital and stockouts.
+* **Flexible Order Volumes:** We accommodate small-to-medium shipments so you don't have to over-commit to large bulk loads.
+
+---
+
+## 3. The HK Wholesale Difference
+
+| Service Feature | Traditional Freight / Distributors | HK Wholesale Approach |
+| :--- | :--- | :--- |
+| **Minimum Order Size** | High pallet/truckload minimums | **Flexible, small-volume friendly** |
+| **Delivery Radius** | Rigid regional routes | **Tailored local New Jersey routing** |
+| **Stock Management** | Slow restocks & long lead times | **Just-In-Time store replenishment** |
+| **Customer Support** | Automated call centers | **Direct, local partner service** |
+
+---
+
+### Ready to Optimize Your Inventory & Deliveries?
+
+Let's discuss what products your store needs and build a custom delivery schedule.
+
+**[Get a Wholesale Quote Today](/contact/)**
 
 {{< product_services >}}

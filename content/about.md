@@ -1,6 +1,6 @@
 ---
 title: "About Us"
-date: 2025-07-11T18:30:00-04:00 # Adjust date as needed
+date: 2025-07-11T18:30:00-04:00
 draft: false
 type: page
 id: about
@@ -8,38 +8,62 @@ description: "Learn how HK Wholesale supports New Jersey small businesses with w
 summary: "HK Wholesale helps New Jersey small businesses source high-demand products and arrange direct delivery, with a focus on gas stations, truck stops, repair shops, and other local businesses."
 ---
 
-Founded in 2010, **HK Wholesale** is your New Jersey small business partner in distribution and logistics.
+# Your Local Wholesale & Logistics Partner
 
-We specialize in sourcing high-demand products and delivering them right to your door helping you expand your product offerings and enhance your profitability. 
+Founded in 2010, **HK Wholesale** bridges the gap between top product manufacturers and New Jersey small businesses. Born out of firsthand family experience in the gas station and trucking industries, we eliminate distributor headaches with **in-demand inventory, competitive bulk pricing, and direct-to-door local delivery.**
 
-Our mission is simple: empower local businesses by connecting them with the goods and services they need to thrive.
+We handle the product sourcing and logistics—so you can focus on running your business.
 
-The business was founded on identifying significant opportunities in how gas station owners procured essential products, particularly those catering to trucking companies.
+---
 
-Drawing on family experience in the trucking and gas station industries, HK Wholesale was launched to bridge the gap between product distributors and gas station owners, offering bulk purchasing and direct delivery at competitive prices. By focusing on customer needs, timely deliveries, and expanding product offerings, the business grew organically through word-of-mouth, without reliance on digital marketing or ecommerce.
+## Who We Serve
 
-We have since then expanded our portfolio to include comprehensive suite of automotive products, bottled water, sports drinks, and seasonal items to Gas stations, Truck stops, Repair Shops, and other small businesses across the state.
+We partner directly with local small-to-medium businesses across New Jersey, including:
 
-## Why Choose Us?
+* **Gas Stations & Convenience Stores**
+* **Truck Stops & Travel Plazas**
+* **Auto Repair Shops & Service Centers**
+* **Local Retailers & Independent Small Businesses**
 
-**Local Expertise**: As a proud New Jersey based business, we understand the challenges and opportunities unique to our region. We leverage our deep market insight to source popular, hard-to-find, and trending products, making it easy for your business to stay ahead of the curve.
+---
 
-**Small Volume, Big Impact Logistics**: Forget the headache of hiring expensive moving companies for small loads. We offer efficient, affordable delivery solutions moving your products from warehouses to your location with care and speed. Now you can focus on growing your business, not managing logistics.
+## What We Supply
 
-**Partner Focused Approach**: Your success is our success. We treat every client like a long-term partner, customizing solutions based on your inventory needs, delivery schedule, and growth goals.
+High-margin, high-turnover products tailored to your customer demand:
 
-## Competitive Advantage
+* **Automotive Essentials:** Fluids, maintenance products, and shop supplies.
+* **Beverages & Refreshments:** Bottled water, energy drinks, and sports beverages.
+* **Seasonal Products:** High-demand items geared toward local travel and peak seasons.
 
-- **Just-in-Time Inventory**: Reduce the stress of overstocking or stockouts; order what you need, when you need it.
-- **No Mover Needed**: Our specialized small load logistics eliminate the hassle and cost of hiring traditional movers.
-- **Expand Your Product Range**: With efficient access to in-demand products, you can introduce new inventory quickly, attracting more customers.
+---
 
-### Unique Selling Proposition
+## Why Local Businesses Partner With Us
 
-Our deep industry insight, partner-first approach, and tailored delivery solutions help you stay ahead of market trends, maximize your profitability, and keep your focus where it belongs: on growing your business.
+### ⚡ Just-In-Time Ordering
+Avoid tied-up capital and cluttered backrooms. Order the inventory you need, exactly when you need it.
 
-Efficient product sourcing, flexible distribution, and cost-effective local delivery our team helps you save time, reduce overhead, and ignite growth. Leave the product and logistics headaches to us so you can focus on delivering remarkable experiences to your customers.
+### 🚚 Small-Load Delivery (No Freight Fees)
+Skip the expense of hiring traditional freight movers. Our specialized local logistics team delivers small-to-medium loads directly to your store with care and speed.
 
-Contact us today to discover how we can help your business generate more revenue!
+### 🤝 Partner-First Pricing & Support
+We treat you as a long-term business partner—offering flexible delivery schedules, customized inventory sourcing, and transparent wholesale margins.
+
+---
+
+## The HK Advantage
+
+> **The Goal:** Save time, lower overhead, and increase profit per square foot.
+
+* **Zero Minimum-Freight Hassles:** Fast, cost-effective local transit.
+* **Trending & Hard-To-Find Inventory:** Stay ahead of regional demand patterns.
+* **Proven Reliability:** 15+ years built on word-of-mouth trust across New Jersey.
+
+---
+
+### Ready to Upgrade Your Inventory Supply?
+
+Let's discuss your product needs and set up a flexible delivery schedule for your business.
+
+**[Contact Our Wholesale Team Today](/contact/)**
 
 {{< key-strengths >}}

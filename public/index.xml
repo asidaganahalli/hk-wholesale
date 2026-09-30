@@ -10,9 +10,30 @@
 		
 		
 		
-			<lastBuildDate>Fri, 11 Jul 2025 18:30:00 -0400</lastBuildDate>
+			<lastBuildDate>Wed, 30 Sep 2026 10:00:00 -0400</lastBuildDate>
 		
 			<atom:link href="http://localhost:1314/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Contact Us</title>
+				<link>http://localhost:1314/contact/</link>
+				<pubDate>Wed, 30 Sep 2026 10:00:00 -0400</pubDate>
+				<guid>http://localhost:1314/contact/</guid>
+				<description>Get in touch with HK Wholesale for fast local product sourcing and store delivery across New Jersey.</description>
+			</item>
+			<item>
+				<title>Privacy Policy</title>
+				<link>http://localhost:1314/privacy/</link>
+				<pubDate>Wed, 30 Sep 2026 10:00:00 -0400</pubDate>
+				<guid>http://localhost:1314/privacy/</guid>
+				<description>Learn how HK Wholesale protects your privacy, manages business contact data, and ensures secure communications in compliance with A2P 10DLC guidelines.</description>
+			</item>
+			<item>
+				<title>SMS Terms</title>
+				<link>http://localhost:1314/sms-terms/</link>
+				<pubDate>Wed, 30 Sep 2026 10:00:00 -0400</pubDate>
+				<guid>http://localhost:1314/sms-terms/</guid>
+				<description>Understand HK Wholesale&amp;rsquo;s SMS Terms &amp;amp; Conditions, messaging frequency, opt-out instructions, and privacy safeguards.</description>
+			</item>
 			<item>
 				<title>About Us</title>
 				<link>http://localhost:1314/about/</link>
@@ -21,32 +42,11 @@
 				<description>HK Wholesale helps New Jersey small businesses source high-demand products and arrange direct delivery, with a focus on gas stations, truck stops, repair shops, and other local businesses.</description>
 			</item>
 			<item>
-				<title>Contact Us</title>
-				<link>http://localhost:1314/contact/</link>
-				<pubDate>Fri, 11 Jul 2025 18:30:00 -0400</pubDate>
-				<guid>http://localhost:1314/contact/</guid>
-				<description>&lt;div class=&#34;container-fluid py-5&#34;&gt;&#xD;&#xA;  &lt;div class=&#34;container&#34;&gt;&#xD;&#xA;    &lt;div class=&#34;row&#34;&gt;&#xD;&#xA;      &lt;div class=&#34;col-lg-8 mx-auto&#34;&gt;&#xD;&#xA;        &lt;h2 class=&#34;mb-4&#34;&gt;Talk with our team&lt;/h2&gt;&#xD;&#xA;        &lt;div class=&#34;contact-form bg-secondary text-dark p-4&#34;&gt;&#xD;&#xA;          &lt;p&gt;Our online contact form is temporarily unavailable. Please contact us directly by phone or email about products, delivery, or your business needs.&lt;/p&gt;&#xD;&#xA;          &lt;p&gt;&lt;i class=&#34;fa fa-phone-alt mr-2&#34;&gt;&lt;/i&gt;&lt;a href=&#34;tel:&amp;#43;17323065096&#34;&gt;&amp;#43;1 (732) 306-5096&lt;/a&gt;&lt;/p&gt;&#xD;&#xA;          &lt;p class=&#34;mb-0&#34;&gt;&lt;i class=&#34;fa fa-envelope mr-2&#34;&gt;&lt;/i&gt;&lt;a href=&#34;mailto:hkwholesalenj@gmail.com&#34;&gt;hkwholesalenj@gmail.com&lt;/a&gt;&lt;/p&gt;&#xD;&#xA;        &lt;/div&gt;&#xD;&#xA;      &lt;/div&gt;&#xD;&#xA;    &lt;/div&gt;&#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;&lt;/div&gt;</description>
-			</item>
-			<item>
 				<title>Our Products &amp; Services</title>
 				<link>http://localhost:1314/services/</link>
 				<pubDate>Fri, 11 Jul 2025 18:30:00 -0400</pubDate>
 				<guid>http://localhost:1314/services/</guid>
-				<description>&lt;p&gt;At &lt;strong&gt;HK Wholesale&lt;/strong&gt;, we are dedicated to helping New Jersey’s small businesses operate smarter and grow faster. Our flexible, partner focused services are designed to simplify sourcing and logistics, allowing you to focus on what matters most serving your customers.&lt;/p&gt;&#xA;&lt;h2 id=&#34;product-procurement--sourcing&#34;&gt;Product Procurement &amp;amp; Sourcing&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;In-Demand Inventory:&lt;/strong&gt; We specialize in sourcing high demand, trending, and hard-to-find products—from automotive essentials to bottled water, sports drinks, and seasonal items.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Tailored Solutions:&lt;/strong&gt; Our team leverages deep market knowledge to recommend products that meet your unique needs, helping you expand your inventory and attract new customers.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;small-volume-logistics&#34;&gt;Small-Volume Logistics&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Cost-Effective Deliveries:&lt;/strong&gt; No need for expensive moving companies. We move your products from warehouses to your location efficiently and affordably, no matter the volume.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Just-in-Time Delivery:&lt;/strong&gt; Receive the right products when you need them, reducing the burden of overstocking or unexpected stockouts.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;partner-centric-distribution&#34;&gt;Partner-Centric Distribution&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Personalized Service:&lt;/strong&gt; Every business has unique challenges and goals. We work closely with each client to customize procurement and delivery according to your schedule and growth objectives.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Flexible Order Sizes:&lt;/strong&gt; Whether you need a small shipment or a broader restock, we accommodate orders of all sizes, perfect for dynamic small business environments.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;div class=&#34;row pb-3&#34;&gt;&lt;/div&gt;&#xD;&#xA;&#xD;&#xA;&lt;div class=&#34;container services p-2&#34;&gt;&#xD;&#xA;    &lt;h3 class=&#34;py-2&#34;&gt;Product Categories&lt;/h3&gt;&#xD;&#xA;    &lt;div class=&#34;row gy-4&#34;&gt;&#xD;&#xA;        &#xD;&#xA;        &lt;div class=&#34;col-lg-4 col-md-6 mb-4&#34;&gt;&#xD;&#xA;            &lt;article class=&#34;product-service-card h-100&#34;&gt;&#xD;&#xA;                &#xD;&#xA;                &lt;figure class=&#34;product-service-photo&#34;&gt;&#xD;&#xA;                    &lt;img src=&#34;http://localhost:1314/img/stock/motor-oil-service.jpg&#34; alt=&#34;Mechanic pouring motor oil into a car engine&#34; width=&#34;1200&#34; height=&#34;800&#34; loading=&#34;lazy&#34;&gt;&#xD;&#xA;                    &lt;figcaption&gt;Stock photo for illustration&lt;/figcaption&gt;&#xD;&#xA;                &lt;/figure&gt;&#xD;&#xA;                &#xD;&#xA;                &lt;h4&gt;Automotive Essentials&lt;/h4&gt;&#xD;&#xA;                &lt;p&gt;DEF, engine oils, lubricants, and truck maintenance products.&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>Privacy Policy</title>
-				<link>http://localhost:1314/privacy/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1314/privacy/</guid>
-				<description>&lt;p&gt;HK Wholesale respects your privacy. This policy describes information you choose to provide when contacting the business.&lt;/p&gt;&#xA;&lt;h2 id=&#34;information-you-provide&#34;&gt;Information you provide&lt;/h2&gt;&#xA;&lt;p&gt;The website&amp;rsquo;s online contact form is temporarily unavailable. If you contact HK Wholesale by phone or email, you choose what information to provide. HK Wholesale uses that information to respond to your inquiry.&lt;/p&gt;&#xA;&lt;h2 id=&#34;text-messages&#34;&gt;Text messages&lt;/h2&gt;&#xA;&lt;p&gt;HK Wholesale does not currently offer SMS enrollment through this website. Calling or emailing the business does not enroll you in text messages. If an SMS program is introduced, this policy and the &lt;a href=&#34;http://localhost:1314/sms-terms/&#34;&gt;SMS Terms&lt;/a&gt; will be updated before enrollment is offered.&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>SMS Terms</title>
-				<link>http://localhost:1314/sms-terms/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1314/sms-terms/</guid>
-				<description>&lt;p&gt;HK Wholesale does not currently offer an SMS messaging program or collect SMS consent through this website. Contacting the business by phone or email does not enroll you in text messages.&lt;/p&gt;&#xA;&lt;p&gt;If an SMS program is introduced, these terms will be updated with the program details and enrollment disclosures before sign-up is offered.&lt;/p&gt;&#xA;&lt;p&gt;For information about information you choose to provide when contacting HK Wholesale, see the &lt;a href=&#34;http://localhost:1314/privacy/&#34;&gt;Privacy Policy&lt;/a&gt;.&lt;/p&gt;</description>
+				<description>High-demand product sourcing and direct local store delivery tailored for New Jersey gas stations, repair shops, and small businesses.</description>
 			</item>
 	</channel>
 </rss>
