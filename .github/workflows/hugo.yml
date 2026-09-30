@@ -65,6 +65,16 @@ jobs:
           grep -q "temporarily unavailable" public/contact/index.html
           grep -q "mailto:hkwholesalenj@gmail.com" public/contact/index.html
           grep -q "tel:+17323065096" public/contact/index.html
+          test -s public/site.webmanifest
+          test -s public/img/Hk-WholesaleLogo.jpeg
+          test -s public/img/icons/apple-touch-icon.png
+          test -s public/img/icons/icon-192.png
+          test -s public/img/icons/icon-512.png
+          grep -E -q '"display"[[:space:]]*:[[:space:]]*"standalone"' public/site.webmanifest
+          grep -E -q 'data-mobile-tab="?logistics"?' public/index.html
+          grep -E -q 'href="?/services/#logistics-services"?' public/index.html
+          grep -q "Outstanding Service at Affordable Prices" public/index.html
+          grep -E -q 'src="?/img/Hk-WholesaleLogo.jpeg"?' public/index.html
           test ! -e public/mail/contact.php
           if grep -q "smsConsent" public/contact/index.html; then
             echo "SMS consent must not be offered before a working enrollment service exists."
@@ -77,6 +87,8 @@ jobs:
 
   # Deployment job
   deploy:
+    outputs:
+      page_url: ${{ steps.deployment.outputs.page_url }}
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -90,14 +102,23 @@ jobs:
   verify-live:
     runs-on: ubuntu-latest
     needs: deploy
+    env:
+      PAGES_URL: ${{ needs.deploy.outputs.page_url }}
     steps:
-      - name: Verify policy pages on the public domain
+      - name: Verify policy pages over HTTPS
         run: |
-          curl --fail --silent --show-error --location --retry 12 --retry-all-errors --retry-delay 10 \
-            https://hk-wholsale.com/privacy/ \
+          if [[ "$PAGES_URL" != https://* ]]; then
+            echo "::error::GitHub Pages is not serving this deployment over HTTPS (reported URL: $PAGES_URL)."
+            echo "::error::Check the custom-domain DNS and GitHub Pages certificate status, then enable Enforce HTTPS in repository Settings > Pages."
+            exit 1
+          fi
+
+          pages_url="${PAGES_URL%/}"
+          curl --fail --silent --show-error --location --retry 12 --retry-delay 10 \
+            "$pages_url/privacy/" \
             --output privacy.html
-          curl --fail --silent --show-error --location --retry 12 --retry-all-errors --retry-delay 10 \
-            https://hk-wholsale.com/sms-terms/ \
+          curl --fail --silent --show-error --location --retry 12 --retry-delay 10 \
+            "$pages_url/sms-terms/" \
             --output sms-terms.html
 
           grep -qi "Privacy Policy" privacy.html

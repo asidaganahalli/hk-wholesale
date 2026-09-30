@@ -1,5 +1,12 @@
 <meta charset="utf-8">
-<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<meta content="width=device-width, initial-scale=1.0, viewport-fit=cover" name="viewport">
+<meta name="theme-color" content="#1f1f2e">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="HK Wholesale">
+<link rel="manifest" href="{{ "site.webmanifest" | relURL }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ "img/icons/apple-touch-icon.png" | relURL }}">
+<link rel="icon" type="image/png" sizes="192x192" href="{{ "img/icons/icon-192.png" | relURL }}">
 {{ if .IsHome }}
 <title>{{ .Site.Title }} | New Jersey Wholesale Distribution</title>
 <meta name="description" content="{{ .Site.Params.hero.description }}">

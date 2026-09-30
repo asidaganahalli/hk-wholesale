@@ -28,6 +28,7 @@ menus:
 
 params:
   description: "HK Wholesale supplies automotive essentials, beverages, and seasonal products to businesses in New Jersey."
+  tagline: "Outstanding Service at Affordable Prices"
   # Address details
   address:
     street: "21 Denman Drive"
@@ -43,5 +44,4 @@ params:
   
   hero:
     title: "Your Trusted Wholesale Distribution Partner"
-    subtitle: "Founded in 2010 · New Jersey Wholesale Distribution"
     description: "Automotive products, beverages, and seasonal supplies delivered locally to New Jersey gas stations, truck stops, repair shops, and other businesses."

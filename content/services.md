@@ -16,7 +16,7 @@ We take the stress out of product procurement and store delivery—so you can ke
 
 ---
 
-## 1. High-Demand Product Sourcing
+## High-Demand Product Sourcing
 
 We source fast-moving, high-margin inventory directly for commercial retail locations across New Jersey:
 
@@ -26,7 +26,7 @@ We source fast-moving, high-margin inventory directly for commercial retail loca
 
 ---
 
-## 2. Small-Load Local Logistics
+## Small-Load Local Logistics
 
 Skip the high minimums and expensive freight charges of traditional moving companies or major national distributors:
 
@@ -36,7 +36,7 @@ Skip the high minimums and expensive freight charges of traditional moving compa
 
 ---
 
-## 3. The HK Wholesale Difference
+## The HK Wholesale Difference
 
 | Service Feature | Traditional Freight / Distributors | HK Wholesale Approach |
 | :--- | :--- | :--- |

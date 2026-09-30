@@ -1,0 +1,24 @@
+{
+  "id": "/",
+  "name": "HK Wholesale",
+  "short_name": "HK Wholesale",
+  "description": "Outstanding Service at Affordable Prices. Wholesale products and local distribution for New Jersey businesses.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1f1f2e",
+  "icons": [
+    {
+      "src": "/img/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

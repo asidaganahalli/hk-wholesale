@@ -1825,7 +1825,7 @@ pre code {
   }
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 991.98px) {
   .table-responsive-md {
     display: block;
     width: 100%;
@@ -9714,6 +9714,82 @@ p,
   color: #c93600 !important;
 }
 
+.navbar-light .navbar-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+  white-space: normal;
+}
+
+.brand-logo {
+  display: block;
+  width: 3rem;
+  height: 3.25rem;
+  flex: 0 0 auto;
+  border-radius: 0.35rem;
+  object-fit: cover;
+}
+
+.brand-copy,
+.footer-brand > span {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.brand-name {
+  color: #c93600;
+  font-size: clamp(1.15rem, 2vw, 1.75rem);
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+
+.brand-tagline,
+.footer-brand > span > span {
+  color: #1f1f2e;
+  font-size: clamp(0.62rem, 1vw, 0.78rem);
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  line-height: 1.25;
+}
+
+.footer-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1.25rem;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-brand:hover,
+.footer-brand:focus {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-brand img {
+  display: block;
+  width: 4rem;
+  height: 4.375rem;
+  flex: 0 0 auto;
+  border-radius: 0.35rem;
+  object-fit: cover;
+}
+
+.footer-brand strong {
+  color: #ffffff;
+  font-size: 1.1rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.footer-brand > span > span {
+  color: #f1f1f5;
+}
+
 .bg-primary {
   color: #fff !important;
 }
@@ -9897,5 +9973,232 @@ button:focus-visible {
     margin-bottom: 0.75rem !important;
     font-size: 0.8rem;
     line-height: 1.25;
+  }
+}
+
+:root {
+  --app-ink: #1f1f2e;
+  --app-accent: #c93600;
+  --app-surface: #ffffff;
+  --app-muted: #6c757d;
+}
+
+html {
+  scroll-padding-top: 1rem;
+  scroll-behavior: smooth;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.mobile-tab-bar {
+  display: none;
+}
+
+.services h3[id] {
+  scroll-margin-top: 1rem;
+}
+
+.product-service-card {
+  transition: transform 180ms ease, box-shadow 180ms ease;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .product-service-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 0.75rem 1.75rem rgba(31, 31, 46, 0.12);
+  }
+}
+
+@media (min-width: 1440px) {
+  .home-about,
+  .services {
+    max-width: 1200px;
+  }
+
+  .site-hero .container {
+    max-width: 900px;
+  }
+
+  .page-content {
+    max-width: 860px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  body {
+    padding-bottom: calc(4.75rem + env(safe-area-inset-bottom, 0px));
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  }
+
+  .site-topbar .row {
+    padding-top: calc(0.5rem + env(safe-area-inset-top, 0px)) !important;
+  }
+
+  .topbar-email,
+  .topbar-email-separator {
+    display: none;
+  }
+
+  .navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+    box-shadow: 0 2px 12px rgba(31, 31, 46, 0.08);
+  }
+
+  .navbar-light .navbar-brand {
+    margin-left: 0 !important;
+    flex: 0 1 auto;
+    min-width: 0;
+  }
+
+  .navbar-brand .display-5 {
+    font-size: clamp(1.2rem, 5vw, 1.55rem);
+  }
+
+  .brand-logo {
+    width: 2.55rem;
+    height: 2.8rem;
+  }
+
+  .brand-name {
+    font-size: clamp(1rem, 4vw, 1.25rem);
+  }
+
+  .brand-tagline {
+    max-width: 11rem;
+    font-size: clamp(0.58rem, 2.4vw, 0.7rem);
+  }
+
+  .navbar-toggler {
+    min-width: 44px;
+    min-height: 44px;
+    flex: 0 0 auto;
+    margin-left: auto;
+  }
+
+  @media (max-width: 359.98px) {
+    .brand-tagline {
+      max-width: 8.75rem;
+    }
+  }
+
+  .site-hero {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .site-hero .container {
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+  }
+
+  .site-hero-actions .btn {
+    min-height: 48px;
+  }
+
+  .mobile-tab-bar {
+    position: fixed;
+    z-index: 1040;
+    right: calc(5.5rem + env(safe-area-inset-right, 0px));
+    bottom: 0;
+    left: 0;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    padding: 0.35rem 0.4rem calc(0.35rem + env(safe-area-inset-bottom, 0px)) max(0.4rem, env(safe-area-inset-left, 0px));
+    border-top: 1px solid rgba(31, 31, 46, 0.1);
+    background: rgba(255, 255, 255, 0.96);
+    box-shadow: 0 -4px 18px rgba(31, 31, 46, 0.08);
+    -webkit-backdrop-filter: blur(18px);
+    backdrop-filter: blur(18px);
+  }
+
+  chat-widget {
+    position: relative !important;
+    z-index: 1030 !important;
+  }
+
+  .mobile-tab {
+    display: flex;
+    min-width: 0;
+    min-height: 52px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.2rem;
+    border-radius: 0.7rem;
+    color: #5c5c69;
+    font-size: 0.68rem;
+    font-weight: 600;
+    line-height: 1;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .mobile-tab svg {
+    width: 1.25rem;
+    height: 1.25rem;
+    fill: currentColor;
+  }
+
+  .mobile-tab:hover,
+  .mobile-tab:focus-visible,
+  .mobile-tab[aria-current="page"] {
+    color: var(--app-accent);
+    text-decoration: none;
+  }
+
+  .mobile-tab[aria-current="page"] {
+    background: rgba(201, 54, 0, 0.08);
+  }
+
+  .mobile-tab:focus-visible {
+    outline: 2px solid var(--app-accent);
+    outline-offset: -2px;
+  }
+
+  .product-service-card {
+    border-radius: 0.9rem;
+    box-shadow: 0 0.4rem 1.25rem rgba(31, 31, 46, 0.08);
+  }
+
+  .page-content {
+    padding-right: 0.25rem;
+    padding-left: 0.25rem;
+  }
+
+  main table {
+    width: 100%;
+    table-layout: fixed;
+  }
+
+  main th,
+  main td {
+    overflow-wrap: anywhere;
+  }
+
+  .back-to-top {
+    right: 1rem;
+    bottom: calc(5.3rem + env(safe-area-inset-bottom, 0px));
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
   }
 }

@@ -4,6 +4,13 @@
             <div class="col-lg-7 col-md-6">
                 <div class="row">
                     <div class="col-md-6 mb-5">
+                        <a class="footer-brand" href="{{ "/" | relURL }}">
+                            <img src="{{ "img/Hk-WholesaleLogo.jpeg" | relURL }}" alt="" width="64" height="70" loading="lazy">
+                            <span>
+                                <strong>{{ .Site.Title }}</strong>
+                                <span>{{ .Site.Params.tagline }}</span>
+                            </span>
+                        </a>
                         <h3 class="text-primary mb-4">Get In Touch</h3>
                         <p><i class="fa fa-map-marker-alt mr-2" aria-hidden="true"></i>{{ .Site.Params.address.street }}, {{ .Site.Params.address.city }}, {{ .Site.Params.address.state }} {{ .Site.Params.address.zip }}</p>
                         <p><i class="fa fa-phone-alt mr-2" aria-hidden="true"></i><a class="text-white" href="tel:{{ replaceRE "[^0-9+]" "" .Site.Params.contact.phone }}">{{ .Site.Params.contact.phone }}</a></p>
