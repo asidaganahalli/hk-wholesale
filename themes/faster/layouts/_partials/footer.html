@@ -1,55 +1,29 @@
-<!-- Footer Start -->
-    <div class="container-fluid bg-dark text-white mt-5 py-5 px-sm-3 px-md-5">
-        <div class="row pt-5">
-            <div class="col-lg-7 col-md-6">
-                <div class="row">
-                    <div class="col-md-6 mb-5">
-                        <a class="footer-brand" href="{{ "/" | relURL }}">
-                            <img src="{{ "img/Hk-WholesaleLogo_New.jpeg" | relURL }}?v=2" alt="HK Wholesale — Outstanding Service at Affordable Prices" width="921" height="602" loading="lazy">
-                            <img class="footer-logo-preview" src="{{ "img/Hk-WholesaleLogo_New.jpeg" | relURL }}?v=2" alt="" aria-hidden="true" width="921" height="602" loading="lazy">
-                        </a>
-                        <h3 class="text-primary mb-4">Get In Touch</h3>
-                        <p><i class="fa fa-map-marker-alt mr-2" aria-hidden="true"></i>{{ .Site.Params.address.street }}, {{ .Site.Params.address.city }}, {{ .Site.Params.address.state }} {{ .Site.Params.address.zip }}</p>
-                        <p><i class="fa fa-phone-alt mr-2" aria-hidden="true"></i><a class="text-white" href="tel:{{ replaceRE "[^0-9+]" "" .Site.Params.contact.phone }}">{{ .Site.Params.contact.phone }}</a></p>
-                        <p><i class="fa fa-envelope mr-2" aria-hidden="true"></i><a class="text-white" href="mailto:{{ .Site.Params.contact.email }}">{{ .Site.Params.contact.email }}</a></p>
-                        <div class="d-flex justify-content-start mt-4">
-                        </div>
-                    </div>
-                    <div class="col-md-6 mb-5">
-                        <h3 class="text-primary mb-4">Quick Links</h3>
-                        <div class="d-flex flex-column justify-content-start">
-                            {{ range .Site.Menus.main }}
-                            <a class="text-white mb-2" href="{{ .URL }}"><i class="fa fa-angle-right mr-2"></i>{{.Name}}</a>
-                            {{ end }}
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-5 col-md-6 mb-5">
-                <h3 class="text-primary mb-4">Questions?</h3>
-                <p>Contact HK Wholesale about product availability, delivery, or a quote for your business.</p>
-                <a class="btn btn-primary py-2 px-4" href="{{ "contact/" | relURL }}">Contact Us</a>
-            </div>
+<section class="site-contact-cta" aria-labelledby="site-contact-cta-title">
+    <div class="container site-contact-cta-inner">
+        <div>
+            <h2 id="site-contact-cta-title">Questions about products or delivery?</h2>
+            <p>Talk with HK Wholesale about availability, delivery, or a quote for your business.</p>
+        </div>
+        <div class="site-contact-cta-actions">
+            <a class="btn btn-outline-light py-2 px-4" href="tel:{{ replaceRE "[^0-9+]" "" .Site.Params.contact.phone }}">Call Now</a>
+            <a class="btn btn-primary py-2 px-4" href="{{ "contact/" | relURL }}">Request a Quote</a>
         </div>
     </div>
-    <div class="container-fluid bg-dark text-white border-top py-4 px-sm-3 px-md-5" style="border-color: #3E3E4E !important;">
-        <div class="row">
-            <div class="col-lg-6 text-center text-md-left mb-3 mb-md-0">
-                <p class="m-0 text-white">&copy; <a href="{{ "/" | relURL }}">{{ .Site.Title }}</a>. All Rights Reserved. 
-				
-				Designed by <a href="https://hk-wholsale.com/">HK Wholesale</a>
-                </p>
-            </div>
-            <div class="col-lg-6 text-center text-md-right">
-                <ul class="nav d-inline-flex">
-                    <li class="nav-item">
-                        <a class="nav-link text-white py-0" href="{{ "privacy/" | relURL }}">Privacy</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white py-0" href="{{ "sms-terms/" | relURL }}">SMS Terms</a>
-                    </li>
-                </ul>
-            </div>
+</section>
+
+<footer class="site-footer">
+    <div class="container site-footer-inner">
+        <p class="site-footer-copyright">&copy; {{ now.Year }} <a href="{{ "/" | relURL }}">{{ .Site.Title }}</a></p>
+        <div class="site-footer-contact">
+            <a href="tel:{{ replaceRE "[^0-9+]" "" .Site.Params.contact.phone }}">{{ .Site.Params.contact.phone }}</a>
+            <a href="mailto:{{ .Site.Params.contact.email }}">{{ .Site.Params.contact.email }}</a>
         </div>
+        <nav class="site-footer-links" aria-label="Footer navigation">
+            {{ range .Site.Menus.main }}
+            <a href="{{ .URL }}">{{ .Name }}</a>
+            {{ end }}
+            <a href="{{ "privacy/" | relURL }}">Privacy</a>
+            <a href="{{ "sms-terms/" | relURL }}">SMS Terms</a>
+        </nav>
     </div>
-    <!-- Footer End -->
+</footer>

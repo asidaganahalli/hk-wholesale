@@ -1,5 +1,5 @@
-<div class="collapse navbar-collapse justify-content-between px-lg-3" id="navbarCollapse">
-    <div class="navbar-nav m-auto py-0">
+<div class="collapse navbar-collapse justify-content-start px-lg-3" id="navbarCollapse">
+    <div class="navbar-nav py-0">
         {{ $currentPage := . }}
         {{ range .Site.Menus.main }}
         <a href="{{ .URL }}" class="nav-item nav-link {{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}" {{ if $currentPage.IsMenuCurrent "main" . }}aria-current="page"{{ end }}>{{
