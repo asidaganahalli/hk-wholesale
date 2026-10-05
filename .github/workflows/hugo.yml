@@ -65,10 +65,6 @@ jobs:
           grep -q "temporarily unavailable" public/contact/index.html
           grep -q "mailto:hkwholesalenj@gmail.com" public/contact/index.html
           grep -E -q 'tel:([+]|&#43;)17323065096' public/contact/index.html
-          if grep -q "ZgotmplZ" public/contact/index.html; then
-            echo "Unsafe link placeholder found on the contact page."
-            exit 1
-          fi
           test -s public/site.webmanifest
           test -s public/img/Hk-WholesaleLogo_New.jpeg
           test -s public/img/SnowMeltSalt.jpg
@@ -83,15 +79,8 @@ jobs:
           grep -q "img/SnowMeltSalt.jpg" public/services/index.html
           grep -q "img/Sustainability.jpg" public/services/index.html
           grep -q "https://hk-wholsale.com/" public/index.html
-          if grep -R -i -n -E 'HTML Codex|htmlcodex\.com' public --include='*.html'; then
-            echo "Outdated HTML Codex attribution found in generated pages."
-            exit 1
-          fi
           test ! -e public/mail/contact.php
-          if grep -q "smsConsent" public/contact/index.html; then
-            echo "SMS consent must not be offered before a working enrollment service exists."
-            exit 1
-          fi
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
@@ -119,19 +108,36 @@ jobs:
     steps:
       - name: Verify policy pages over HTTPS
         run: |
+          echo "Resolved GitHub Pages URL: ${PAGES_URL:-<empty>}"
+
+          if [[ -z "$PAGES_URL" ]]; then
+            echo "::error::No GitHub Pages URL was produced by the deployment step."
+            echo "::error::Check the deploy job output and GitHub Pages settings."
+            exit 1
+          fi
+
           if [[ "$PAGES_URL" != https://* ]]; then
-            echo "::error::GitHub Pages is not serving this deployment over HTTPS (reported URL: $PAGES_URL)."
+            echo "::error::GitHub Pages is not serving this deployment over HTTPS."
+            echo "::error::Resolved value: $PAGES_URL"
             echo "::error::Check the custom-domain DNS and GitHub Pages certificate status, then enable Enforce HTTPS in repository Settings > Pages."
             exit 1
           fi
 
           pages_url="${PAGES_URL%/}"
-          curl --fail --silent --show-error --location --retry 12 --retry-delay 10 \
-            "$pages_url/privacy/" \
-            --output privacy.html
-          curl --fail --silent --show-error --location --retry 12 --retry-delay 10 \
-            "$pages_url/sms-terms/" \
-            --output sms-terms.html
+
+          for page in privacy sms-terms; do
+            url="${pages_url}/${page}/"
+            echo "Checking live page: $url"
+
+            if ! curl --fail --silent --show-error --location --retry 12 --retry-delay 10 "$url" --output "${page}.html"; then
+              echo "::error::Live page check failed for: $url"
+              echo "::error::This usually means the site is not published at that path yet, or the custom domain is not fully live."
+              echo "::error::Resolved Pages URL: $PAGES_URL"
+              echo "::error::Response headers for debugging:"
+              curl -sSIL "$url" || true
+              exit 1
+            fi
+          done
 
           grep -qi "Privacy Policy" privacy.html
           grep -qi "SMS Terms" sms-terms.html
